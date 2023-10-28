@@ -1,0 +1,60 @@
+/* * {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+} */
+.container {
+  padding: 20px;
+  width: 30%;
+  background-color: darkgrey;
+  border-radius: 20px;
+}
+span {
+  font-size: 30px;
+  font-weight: 700;
+}
+.nav {
+  width: auto;
+
+  text-align: center;
+}
+.number {
+  margin-top: 10px;
+  text-align: end;
+  background-color: aliceblue;
+  padding: 20px;
+  height: 20px;
+  font-size: 30px;
+}
+.button {
+  justify-items: center;
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  /* grid-template-areas:
+    "one two thre plus"
+    "four five six minus"
+    "seven eight nine multyply"
+    "zero dot reset division"
+    "equals equals"; */
+  grid-gap: 1vw;
+}
+.btn.equals {
+  /* grid-area: equals; */
+  width: 100%;
+  border-radius: 30px;
+}
+button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 15px;
+}
+.reset {
+  background-color: red;
+}
+.btn {
+  background-color: aqua;
+  font-weight: 700;
+}
